@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/DevOps/static/css/main.b0cd559c.css",
+    "main.js": "/DevOps/static/js/main.10b11ec8.js",
+    "static/js/453.ace21015.chunk.js": "/DevOps/static/js/453.ace21015.chunk.js",
+    "static/media/leaf.png": "/DevOps/static/media/leaf.ff2616f664c8c0ceab91.png",
+    "static/media/emotion.png": "/DevOps/static/media/emotion.eabfc16e7a146ab15778.png",
+    "static/media/suicide.png": "/DevOps/static/media/suicide.9c86cd7138a398c45fa5.png",
+    "static/media/codeEditor.png": "/DevOps/static/media/codeEditor.1b585492490c8c1cace9.png",
+    "static/media/blog.png": "/DevOps/static/media/blog.fb8ab7f271a937d5fc01.png",
+    "static/media/about.png": "/DevOps/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/ckad.png": "/DevOps/static/media/ckad.d125b42e5064c9d61b22.png",
+    "static/media/chatify.png": "/DevOps/static/media/chatify.7206044e0b5cdad44726.png",
+    "static/media/hfcp.png": "/DevOps/static/media/hfcp.6ea52e01eac96a270f6a.png",
+    "static/media/ub_logo.jpg": "/DevOps/static/media/ub_logo.946a0d1fb735ab278758.jpg",
+    "static/media/Kshitij_Patil_DevOps.pdf": "/DevOps/static/media/Kshitij_Patil_DevOps.d5c41020450622a30604.pdf",
+    "static/media/profile.jpg": "/DevOps/static/media/profile.7d9fb3b6bdb3a54b3838.jpg",
+    "static/media/home-bg.jpg": "/DevOps/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/puneuniversity_logo.jpg": "/DevOps/static/media/puneuniversity_logo.55016bbce1afd394533b.jpg",
+    "static/media/pre.svg": "/DevOps/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/DevOps/index.html",
+    "main.b0cd559c.css.map": "/DevOps/static/css/main.b0cd559c.css.map",
+    "main.10b11ec8.js.map": "/DevOps/static/js/main.10b11ec8.js.map",
+    "453.ace21015.chunk.js.map": "/DevOps/static/js/453.ace21015.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0cd559c.css",
+    "static/js/main.10b11ec8.js"
+  ]
+}
