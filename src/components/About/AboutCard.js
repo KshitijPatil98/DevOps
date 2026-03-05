@@ -1,69 +1,49 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
-    <Card className="quote-card-view" style={{ marginTop: "100px" }}>
-      <Card.Body>
-        <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "center", lineHeight: 1.75 }}>
-            <br /> I am a passionate{" "}
-            <span className="purple">DevOps Engineer</span> with a{" "}
-            <span className="purple">Master's degree in Computer Science</span>{" "}
-            from the <span className="purple">University at Buffalo, SUNY</span>
-            . I specialize in{" "}
-            <span className="purple">
-              Kubernetes, Terraform, GoLang, Python
-            </span>
-            , and{" "}
-            <span className="purple">cloud infrastructure management</span>,
-            with hands-on experience in configuring and optimizing complex
-            environments. My expertise includes implementing{" "}
-            <span className="purple">
-              CI/CD pipelines, automating workflows
-            </span>
-            , and enhancing{" "}
-            <span className="purple">application performance</span>. At Incalus
-            Inc, I significantly reduced{" "}
-            <span className="purple">infrastructure costs</span> and
-            <span className="purple"> downtime</span>, boosting deployment
-            efficiency and scalability. With a strong background in programming
-            languages like <span className="purple">Go, Python, and Bash</span>,
-            I thrive in dynamic environments, driving innovation and operational
-            excellence.
-            {<br />}
-            Additionally, I am a{" "}
-            <span className="purple">
-              Certified Kubernetes Application Developer{" "}
-            </span>
-            .{<br />}
-            In my free time, I love playing tennis, working out, and cooking.
+    <div style={{ padding: "60px 40px 30px", background: "#f8fafc", borderBottom: "1px solid #e2e8f0" }}>
+      <h1 className="project-heading" style={{ textAlign: "center", marginBottom: "30px" }}>
+        About Me
+      </h1>
+      <Card className="quote-card-view" style={{ maxWidth: "820px", margin: "0 auto" }}>
+        <Card.Body style={{ padding: "36px 40px", textAlign: "left" }}>
+          <p style={{ color: "#2563eb", fontSize: "1.05em", fontStyle: "italic", marginBottom: "20px", lineHeight: 1.65 }}>
+            "I enjoy taking messy infrastructure and turning it into something predictable."
           </p>
-          {/* <ul>
-            <li className="about-activity">
-              <ImPointRight /> Reading
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Sketching
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Hiking
-            </li>
-          </ul> */}
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "If someone has to do it, why not you?"{" "}
+          <p style={{ color: "#334155", fontSize: "0.97em", lineHeight: 1.85, marginBottom: "16px" }}>
+            I work across the reliability stack, Kubernetes architecture, infrastructure-as-code,
+            CI/CD systems, and production observability. At{" "}
+            <span className="purple" style={{ fontWeight: 600 }}>TikTok</span>, I've led osquery
+            rollouts across <span className="purple" style={{ fontWeight: 600 }}>170K+ hosts</span>,
+            built high-throughput telemetry pipelines, and operated GitOps-driven deployments at scale.
           </p>
-          <footer
-            style={{ marginBottom: "380px" }}
-            className="blockquote-footer"
-          >
-            Kshitij
-          </footer>
-        </blockquote>
-      </Card.Body>
-    </Card>
+
+          <p style={{ color: "#334155", fontSize: "0.97em", lineHeight: 1.85, marginBottom: "16px" }}>
+            I've also designed, deployed, and hosted{" "}
+            <span className="purple" style={{ fontWeight: 600 }}>MCP servers</span> to enable AI systems
+            to securely access internal infrastructure context, integrating with ArgoCD and Nexus to
+            build controlled, production-grade interfaces between LLM workflows and real operational systems.
+          </p>
+
+          <p style={{ color: "#334155", fontSize: "0.97em", lineHeight: 1.85, marginBottom: "16px" }}>
+            In my free time, I explore the intersection of{" "}
+            <span className="purple" style={{ fontWeight: 600 }}>AI and reliability</span>, building
+            small agentic systems that can reason over logs, telemetry, and infrastructure in ways that
+            are actually useful. Currently{" "}
+            <span className="purple" style={{ fontWeight: 600 }}>CKA and CKAD certified</span>, working
+            toward Kubestronaut status in 2026.
+          </p>
+
+          <p style={{ color: "#334155", fontSize: "0.97em", lineHeight: 1.85, marginBottom: "0" }}>
+            Outside work, I foster rescued dogs, probably the most rewarding part of my life.
+            Always happy to talk reliability, automation, or where AI is taking all of this.
+          </p>
+        </Card.Body>
+      </Card>
+    </div>
   );
 }
 

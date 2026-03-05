@@ -5,14 +5,10 @@ function Type() {
   return (
     <Typewriter
       options={{
-        strings: [
-          "DevOps Engineer",
-          "Site Reliability Engineer",
-          "Certified Kubernetes Application Developer"
-        ],
+        strings: ["Site Reliability Engineer"],
         autoStart: true,
-        loop: true,
-        deleteSpeed: 50,
+        loop: false,
+        deleteSpeed: Infinity,
       }}
     />
   );
