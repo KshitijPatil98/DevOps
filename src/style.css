@@ -756,3 +756,36 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+/* --------- */
+/* Mobile    */
+/* --------- */
+@media (max-width: 767px) {
+  /* About card */
+  .about-card-outer {
+    padding: 40px 16px 24px !important;
+  }
+  .about-card-body {
+    padding: 24px 20px !important;
+  }
+
+  /* Experience & Education cards — allow date to wrap */
+  .card-date {
+    white-space: normal !important;
+  }
+
+  /* Education degree row — remove logo indent on narrow screens */
+  .edu-degree-row {
+    padding-left: 0 !important;
+  }
+
+  /* Tighten experience/education card padding */
+  .exp-card, .edu-card {
+    padding: 18px 16px !important;
+  }
+
+  /* Hero photo full width but not oversized */
+  .home-content img {
+    max-width: 280px !important;
+  }
+}

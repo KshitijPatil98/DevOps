@@ -74,6 +74,7 @@ function Experience() {
             {jobs.map((job, i) => (
               <div
                 key={i}
+                className="exp-card"
                 style={{
                   background: "#ffffff",
                   borderRadius: "10px",
@@ -85,7 +86,7 @@ function Experience() {
               >
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", flexWrap: "wrap", gap: "4px", marginBottom: "4px" }}>
                   <span style={{ color: "#2563eb", fontWeight: 700, fontSize: "1.05em" }}>{job.company}</span>
-                  <span style={{ color: "#475569", fontSize: "0.82em", whiteSpace: "nowrap" }}>{job.date}</span>
+                  <span className="card-date" style={{ color: "#475569", fontSize: "0.82em", whiteSpace: "nowrap" }}>{job.date}</span>
                 </div>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", marginBottom: "14px" }}>
                   <span style={{ color: "#0f172a", fontWeight: 600, fontSize: "0.93em" }}>{job.title}</span>

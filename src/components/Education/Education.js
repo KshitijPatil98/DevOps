@@ -43,6 +43,7 @@ export default function Education() {
         {educationInfo.map((school, i) => (
           <div
             key={i}
+            className="edu-card"
             style={{
               background: "#ffffff",
               borderRadius: "10px",
@@ -57,9 +58,9 @@ export default function Education() {
                 <img src={school.logo} alt={school.schoolName} style={{ width: 44, height: 44, objectFit: "contain", borderRadius: "6px" }} />
                 <span style={{ color: "#2563eb", fontWeight: 700, fontSize: "1.05em" }}>{school.schoolName}</span>
               </div>
-              <span style={{ color: "#475569", fontSize: "0.82em", whiteSpace: "nowrap" }}>{school.duration}</span>
+              <span className="card-date" style={{ color: "#475569", fontSize: "0.82em", whiteSpace: "nowrap" }}>{school.duration}</span>
             </div>
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", marginBottom: "16px", paddingLeft: "56px" }}>
+            <div className="edu-degree-row" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", marginBottom: "16px", paddingLeft: "56px" }}>
               <span style={{ color: "#0f172a", fontWeight: 600, fontSize: "0.93em" }}>{school.degree}</span>
               <span style={{ color: "#475569", fontSize: "0.82em" }}>{school.location}</span>
             </div>

@@ -3,12 +3,12 @@ import Card from "react-bootstrap/Card";
 
 function AboutCard() {
   return (
-    <div style={{ padding: "60px 40px 30px", background: "#f8fafc", borderBottom: "1px solid #e2e8f0" }}>
+    <div className="about-card-outer" style={{ padding: "60px 40px 30px", background: "#f8fafc", borderBottom: "1px solid #e2e8f0" }}>
       <h1 className="project-heading" style={{ textAlign: "center", marginBottom: "30px" }}>
         About Me
       </h1>
       <Card className="quote-card-view" style={{ maxWidth: "820px", margin: "0 auto" }}>
-        <Card.Body style={{ padding: "36px 40px", textAlign: "left" }}>
+        <Card.Body className="about-card-body" style={{ padding: "36px 40px", textAlign: "left" }}>
           <p style={{ color: "#2563eb", fontSize: "1.05em", fontStyle: "italic", marginBottom: "20px", lineHeight: 1.65 }}>
             "I enjoy taking messy infrastructure and turning it into something predictable."
           </p>
