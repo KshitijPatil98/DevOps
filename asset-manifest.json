@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DevOps/static/css/main.a85ba0d2.css",
-    "main.js": "/DevOps/static/js/main.287a7932.js",
+    "main.css": "/DevOps/static/css/main.46bef352.css",
+    "main.js": "/DevOps/static/js/main.7856c4b3.js",
     "static/js/453.ace21015.chunk.js": "/DevOps/static/js/453.ace21015.chunk.js",
     "static/media/ckad.png": "/DevOps/static/media/ckad.d125b42e5064c9d61b22.png",
     "static/media/ub_logo.jpg": "/DevOps/static/media/ub_logo.946a0d1fb735ab278758.jpg",
@@ -11,12 +11,12 @@
     "static/media/puneuniversity_logo.jpg": "/DevOps/static/media/puneuniversity_logo.55016bbce1afd394533b.jpg",
     "static/media/pre.svg": "/DevOps/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/DevOps/index.html",
-    "main.a85ba0d2.css.map": "/DevOps/static/css/main.a85ba0d2.css.map",
-    "main.287a7932.js.map": "/DevOps/static/js/main.287a7932.js.map",
+    "main.46bef352.css.map": "/DevOps/static/css/main.46bef352.css.map",
+    "main.7856c4b3.js.map": "/DevOps/static/js/main.7856c4b3.js.map",
     "453.ace21015.chunk.js.map": "/DevOps/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a85ba0d2.css",
-    "static/js/main.287a7932.js"
+    "static/css/main.46bef352.css",
+    "static/js/main.7856c4b3.js"
   ]
 }
